@@ -1,1 +1,1 @@
-https://apribooting.github.io/rsschool-cv/cv
+https://apribooting.github.io/rsschool-cv/
