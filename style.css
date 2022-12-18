@@ -1,0 +1,54 @@
+html {
+    font-family: Roboto, sans-serif;
+    scroll-behavior: smooth;
+    line-height: 22px; 
+}
+.nav {
+    max-width: 900px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+.cv {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+}
+
+.nav-link {
+    transition: .3s;
+    padding: 0 20px;
+    line-height: 50px;
+
+  }
+
+h1 {
+    color: cornflowerblue;
+    margin-bottom: 0.25em;
+     }
+
+h2 {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact_type  {
+    min-width: 90px;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+      }
