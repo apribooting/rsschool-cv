@@ -2,6 +2,7 @@ html {
     font-family: Roboto, sans-serif;
     scroll-behavior: smooth;
     line-height: 22px; 
+    background: rgb(39, 29, 51)
 }
 .nav {
     max-width: 900px;
@@ -17,10 +18,23 @@ a {
     margin: 0 auto;
 }
 
-footer {
-    text-align: center;
+.footer {
+     max-width: 900px;
+    width: 900px;
+    margin: 0 auto;
+    background: orange;
+    border: solid 1px rgb(81, 81, 81);
+   
 }
 
+.fc {
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 163px;
+    font-size: 20px;
+}
 .nav-link {
     transition: .3s;
     padding: 0 22px;
@@ -45,7 +59,7 @@ h3 {
 .contact {
 
     display: flex;
-    margin-left: 1em;
+    margin-left: 
 }
 .contacts {
     
@@ -73,6 +87,39 @@ h3 {
         background-color: rgb(98, 186, 179);
       }
 .cv {
-    border: 2px dotted rgb(0, 0, 0);
+    background: rgb(237, 237, 237);
+    border: 1px solid rgb(0, 0, 0);
+}
+.img {
+    background: black;
+    padding: 1px;
+    border: 3px solid gray;
+    border-radius: 4px;
 }
 
+.one {
+    display: flex;
+    flex-direction: column;
+   font-size: 18px;
+    width: 400px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.two {
+    
+    display: flex;
+    
+}
+
+.year {
+    margin: 0 10px;
+}
+
+.fimg {
+    margin: 0 10px;
+}
+
+.fjs {
+    margin: 0 10px;
+}
