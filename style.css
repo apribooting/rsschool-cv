@@ -1,0 +1,125 @@
+html {
+    font-family: Roboto, sans-serif;
+    scroll-behavior: smooth;
+    line-height: 22px; 
+    background: rgb(39, 29, 51)
+}
+.nav {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cv {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer {
+     max-width: 900px;
+    width: 900px;
+    margin: 0 auto;
+    background: orange;
+    border: solid 1px rgb(81, 81, 81);
+   
+}
+
+.fc {
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 163px;
+    font-size: 20px;
+}
+.nav-link {
+    transition: .3s;
+    padding: 0 22px;
+    line-height: 50px;
+
+  }
+
+h1 {
+    color: cornflowerblue;
+    margin-bottom: 0.25em;
+     }
+
+h2 {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+h3 {
+    margin-left: 1em;
+}
+
+.contact {
+
+    display: flex;
+    margin-left: 
+}
+.contacts {
+    
+    margin-left: 1em;
+}
+.start {
+    margin-left: 1em;
+}
+.contact_type  {
+    min-width: 90px;
+    }
+.courses_tag {
+    display: flex;
+}
+.course_status {
+    margin-left: 1em;
+}
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        
+        align-items: center;
+        list-style: none;
+        border: 3px dashed rgb(0, 0, 0);
+        background-color: rgb(98, 186, 179);
+      }
+.cv {
+    background: rgb(237, 237, 237);
+    border: 1px solid rgb(0, 0, 0);
+}
+.img {
+    background: black;
+    padding: 1px;
+    border: 3px solid gray;
+    border-radius: 4px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+   font-size: 18px;
+    width: 400px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.two {
+    
+    display: flex;
+    
+}
+
+.year {
+    margin: 0 10px;
+}
+
+.fimg {
+    margin: 0 10px;
+}
+
+.fjs {
+    margin: 0 10px;
+}
