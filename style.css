@@ -366,3 +366,148 @@ color: #E06733;
     color: #717171;
 
 }
+
+.prices {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 560px;
+    
+    top: 2630px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: solid 1px #000;
+}
+
+.pricesWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1222px;
+    height: 405px;
+    border: solid 1px #000;
+    margin-top: 38px;
+
+}
+
+.priceColumn {
+    display: flex;
+    flex-direction: column;
+    width: 332px;
+    height: 391px;
+    border: solid 1px #000;
+}
+
+.priceIntro {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+color: #000000;
+}
+
+.priceTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+    width: 332px;
+    height: 282.01px;
+    top: 60px;
+
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.priceButtons {
+    margin: auto;
+    width: 250px;
+    height: 214.01px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px #000;
+}
+.priceButton {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.priceButtonText {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    left: 40px;
+    color: #000000;
+}
+
+.priceCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #d9d9d9;
+}
+
+.priceRight {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 452px;
+    height: 405px;
+    border: solid 1px #000;
+    align-items: flex-end;
+}
+
+.priceRightText {
+    position: relative;
+    width: 452px;
+    height: 191.01px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+
+    text-align: right;
+
+    color: #000000;
+}
+
+.priceRightButton {
+    position: relative;
+    bottom: 39px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #E06733;
+
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
